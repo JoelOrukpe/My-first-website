@@ -1,5 +1,5 @@
 .blue-color{
-    color:#0245f4
+    color:#0045f4
 }
 body{
     font-family: sans-serif;
@@ -12,22 +12,26 @@ body{
 }
 .side-img{
     width: 50%
-    width: 350px;
+    width: 500px;
     height: 350px;
     padding-left: 25%;
    }
-<div class = "half-width">   
-   <img class = "side-img" scr = "images/profile.jpg" alt = "">
-</div>   
+.side-things{
+    float: left;
+}
+.right-side{
+    float: right;
+}
+
 .primary-btn{
     color: white;
-    background-color: #8845f4;
-    padding: 13px 42px 13px 42px;
+    background-color: #0045f4;
+    padding: 13px 42px;
     border-radius: 20px;
     text-decoration: none;
 }
 h1{
-    font-size: 2.5em;
+    font-size: 2em;
 }
 .container{
     padding-left: 5%;
